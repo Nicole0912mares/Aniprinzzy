@@ -1,0 +1,353 @@
+
+  
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+ 
+  
+ 
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu li:hover > .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    padding: 0;
+  }
+
+  .jp{
+    margin-right: 100px;
+    position: absolute;
+   
+   
+  }
+
+  .pj{
+    margin-right:1000px;
+   
+  }
+  
+  .submenu li {
+    width: 100%;
+  }
+  
+  .submenu li a {
+    padding: 10px;
+    color: #333;
+  }
+  
+  .submenu li:hover {
+    background-color: #ccc;
+  }
+
+  h1{
+    text-align: center;
+  }
+  footer {
+    background-color: #e69f9f;
+    padding: 0px;
+    text-align: center;
+    margin-top: 148px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 148px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .contact-info, .social-media, .newsletter {
+    flex-basis: 30%;
+  }
+  
+  .contact-info h3, .social-media h3, .newsletter h3 {
+    margin-bottom: 10px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .newsletter form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .newsletter button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+
+
+  
+ 
+
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  header {
+
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .product {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  background-color: #ccc;
+    text-align: center;
+  }
+
+  
+  .product img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .product h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 5px;
+  }
+  
+  .product input {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .product button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  aside {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #carrito {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #carrito li {
+    margin-bottom: 10px;
+  }
+  
+  #carrito button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+
+
+
+
+  /*****/
+  *
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+color: #18e666;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+ 
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+
+
+}
+
+.menu .navbar ul li a:hover
+{
+    color: #18e666;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+
+}
+
+
+
+@media(max-width:991px)
+ {
+    .content {min-height: 70px;}
+
+    .menu{
+        top: 0;
+        padding: 20px;
+    }
+.menu label{
+    display: initial;
+
+}
+
+.menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #151517;
+    display: none;
+
+
+}
+.menu .navbar ul li {
+    width: 100%;
+
+}
+#menu:checked ~ .navbar{
+    display: initial;
+    
+}
+
+}
+
+
+    
+body{
+  background-color: rgb(177, 34, 238);
+  background-image: url(../img/moraa.png);
+}
